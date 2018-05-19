@@ -1,0 +1,31 @@
+NavBar Horizontal
+alignItems center
+marginTop 40
+marginLeft 20
+paddingBottom 5
+marginRight 20
+ButtonOutline
+onWhen <!isCities
+onClick <refresh
+text REFRESH
+
+Vertical
+flexBasis auto
+flexGrow 1
+flexShrink 1
+justifyContent center
+alignItems center
+LogoSvg
+width 80
+height 30
+
+
+ButtonOutline
+onWhen <!isCities
+onClick <goToCities
+text CITIES
+
+ButtonOutline
+onWhen <isCitiesAndCanGoBack
+onClick <back
+text BACK

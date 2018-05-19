@@ -1,0 +1,9 @@
+Splash Vertical
+flexGrow 1
+flexShrink 1
+flexBasis auto
+alignItems center
+justifyContent center
+LogoIconSvg
+width 80
+height 80

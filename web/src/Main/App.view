@@ -1,0 +1,39 @@
+App Vertical
+flexGrow 1
+flexShrink 1
+flexBasis auto
+Splash
+onWhen <isLoading
+
+Setup
+onWhen <isNotSetupOrLoading
+setup <
+skip <skipSetup
+
+Vertical
+onWhen <isSetup
+flexGrow 1
+flexShrink 1
+flexBasis auto
+Cities
+onWhen <isCities
+back <
+canGoBack <
+onClick <chooseCity
+
+Stations
+onWhen <isStations
+city <
+coords <
+coordsIsReady <
+goToCities <
+onClick <chooseStation
+refresh <
+
+Map
+onWhen <isMap
+city <
+coords <
+goToCities <
+goToStations <
+station <

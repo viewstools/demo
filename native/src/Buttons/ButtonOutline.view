@@ -1,0 +1,22 @@
+ButtonOutline Vertical
+onClick <
+borderColor #005fff
+borderWidth 1
+borderStyle solid
+borderTopLeftRadius 20
+borderTopRightRadius 20
+borderBottomLeftRadius 20
+borderBottomRightRadius 20
+paddingBottom 4
+paddingLeft 10
+paddingRight 10
+paddingTop 4
+marginRight < 0
+width 80
+Text
+color #005fff
+fontFamily Montserrat
+fontSize 10
+fontWeight 400
+text < LABEL
+textAlign center

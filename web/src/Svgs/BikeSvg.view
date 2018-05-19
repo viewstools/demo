@@ -1,0 +1,34 @@
+BikeSvg Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+baseProfile tiny
+viewBox 0 0 50 50
+width < 50
+height < 50
+SvgCircle
+fill < none
+stroke < #231F20
+strokeWidth 3
+strokeMiterlimit 10
+cx 37.9
+cy 32.4
+r 8.2
+
+SvgCircle
+fill < none
+stroke < #231F20
+strokeWidth 3
+strokeMiterlimit 10
+cx 13.1
+cy 32.4
+r 8.2
+
+SvgPath
+fill < none
+stroke < #231F20
+strokeWidth 3
+strokeMiterlimit 10
+d M24.5 9.3l12.3 23.1H13.1M20.4 19.8h-7.3M30.6 9.3H18.4

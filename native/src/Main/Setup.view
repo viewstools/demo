@@ -1,0 +1,131 @@
+Setup Vertical
+flexGrow 1
+flexShrink 1
+flexBasis auto
+Vertical
+flexGrow 1
+flexShrink 1
+flexBasis auto
+alignItems center
+justifyContent center
+PositionSvg
+width 80
+height 140
+marginBottom 20
+
+Station Vertical
+onClick <
+width 80%
+backgroundColor white
+borderTopLeftRadius 8
+borderTopRightRadius 8
+borderBottomLeftRadius 8
+borderBottomRightRadius 8
+shadowColor rgba(96, 134, 180, 0.2)
+shadowSpread 0
+shadowBlur 20
+shadowOffsetY 5
+shadowOffsetX 0
+paddingBottom 20
+paddingLeft 20
+paddingRight 20
+paddingTop 20
+opacity 1
+Horizontal
+alignItems center
+Vertical
+BikeSvg
+width 30
+height 30
+stroke #4a4a4a
+
+
+Text
+color #005fff
+fontFamily Montserrat
+fontSize 26
+fontWeight 600
+text 17
+marginLeft 10
+
+Vertical
+SpacemachineSvg
+width 30
+height 30
+stroke #4a4a4a
+marginLeft 30
+
+
+Text
+color #005fff
+fontFamily Montserrat
+fontSize 26
+fontWeight 600
+text 8
+marginLeft 10
+flexGrow 1
+
+Text
+color #4a4a4a
+fontFamily Montserrat
+fontSize 26
+fontWeight 600
+text 0.2
+marginLeft 10
+
+Text
+color #4a4a4a
+fontFamily Montserrat
+fontSize 14
+fontWeight 400
+text km
+marginLeft 10
+
+
+
+Text
+text Want us to get the closest
+fontFamily Montserrat
+fontSize 20
+fontWeight 400
+textAlign center
+paddingLeft 30
+paddingRight 30
+lineHeight 1.4
+marginTop 50
+
+Text
+text stations based on your location?
+fontFamily Montserrat
+fontSize 20
+fontWeight 400
+textAlign center
+paddingLeft 30
+paddingRight 30
+lineHeight 1.4
+
+
+Vertical
+alignItems center
+justifyContent center
+marginLeft 30
+marginRight 30
+TextButton
+onClick <setup
+text Sure thing!
+
+Vertical
+alignItems center
+flexBasis auto
+flexGrow 1
+flexShrink 1
+justifyContent center
+paddingBottom 20
+paddingTop 20
+onClick <skip
+Text
+color #323232
+fontFamily Montserrat
+fontSize 14
+fontWeight 400
+text Do nothing

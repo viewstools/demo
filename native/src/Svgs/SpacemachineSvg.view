@@ -1,0 +1,23 @@
+SpacemachineSvg Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+baseProfile tiny
+viewBox 0 0 50 50
+width < 50
+height < 50
+SvgPath
+fill < none
+stroke < #BDBDBD
+strokeWidth 3
+strokeMiterlimit 10
+d M3.2 39.2V24.5c0-2.5 2-4.5 4.5-4.5h27.4c2.5 0 4.5 2 4.5 4.5v14.7
+
+SvgPath
+fill < none
+stroke < #BDBDBD
+strokeWidth 3
+strokeMiterlimit 10
+d M9.8 32.6V18c0-2.5 2-4.5 4.5-4.5h27.4c2.5 0 4.5 2 4.5 4.5v14.7

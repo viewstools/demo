@@ -1,0 +1,29 @@
+WavesSvg Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+baseProfile tiny
+viewBox 0 0 90 52
+width < 90
+height < 52
+SvgPath
+fill < none
+stroke < #CCC
+strokeWidth 2
+strokeMiterlimit 10
+d M69.8 18.9c-13.7 13.7-36 13.7-49.7 0
+
+SvgPath
+fill < none
+stroke <stroke2 #E0E0E0
+strokeMiterlimit 10
+d M82.4 31.7c-20.6 20.6-54.1 20.6-74.7 0
+
+SvgPath
+fill < none
+stroke <stroke3 #BDBDBD
+strokeWidth 3
+strokeMiterlimit 10
+d M59.2 5.7c-7.9 7.9-20.6 7.9-28.4 0

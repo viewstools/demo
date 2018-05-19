@@ -1,0 +1,16 @@
+ListSvg Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+baseProfile tiny
+viewBox 0 0 50 50
+width < 50
+height < 50
+SvgPath
+fill < none
+stroke < #231F20
+strokeWidth 3
+strokeMiterlimit 10
+d M44.9 29H5.1c-1.1 0-2-.9-2-2v-4c0-1.1.9-2 2-2h39.8c1.1 0 2 .9 2 2v4c0 1.1-.9 2-2 2zM44.9 15.4H5.1c-1.1 0-2-.9-2-2v-4c0-1.1.9-2 2-2h39.8c1.1 0 2 .9 2 2v4c0 1.1-.9 2-2 2zM44.9 42.6H5.1c-1.1 0-2-.9-2-2v-4c0-1.1.9-2 2-2h39.8c1.1 0 2 .9 2 2v4c0 1.1-.9 2-2 2z

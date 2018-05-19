@@ -1,0 +1,98 @@
+Station Vertical
+onClick <
+backgroundColor white
+borderTopLeftRadius 8
+borderTopRightRadius 8
+borderBottomLeftRadius 8
+borderBottomRightRadius 8
+shadowColor rgba(96, 134, 180, 0.2)
+shadowSpread 0
+shadowBlur 20
+shadowOffsetY 5
+shadowOffsetX 0
+marginTop 10
+paddingBottom 20
+paddingLeft 20
+paddingRight 20
+paddingTop 20
+opacity 1
+Vertical
+opacity 1
+when <isClosed
+opacity 0.15
+Text
+color #323232
+fontFamily Montserrat
+fontSize 14
+fontWeight 400
+text <address High Harignton Road
+
+Horizontal
+alignItems center
+marginTop 10
+BikeSvg
+width 30
+height 30
+stroke #4a4a4a
+
+Text
+color #005fff
+fontFamily Montserrat
+fontSize 26
+fontWeight 600
+text <freeBikes 17
+marginLeft 10
+
+SpacemachineSvg
+width 30
+height 30
+stroke #4a4a4a
+marginLeft 30
+
+Text
+color #005fff
+fontFamily Montserrat
+fontSize 26
+fontWeight 600
+text <emptySpaces 8
+marginLeft 10
+flexGrow 1
+
+Text
+color #4a4a4a
+fontFamily Montserrat
+fontSize 26
+fontWeight 600
+text <distance 0.2
+marginLeft 10
+
+Text
+color #4a4a4a
+fontFamily Montserrat
+fontSize 14
+fontWeight 400
+text <unit m
+marginLeft 10
+
+
+
+Vertical
+onWhen <isOpen
+alignSelf center
+paddingBottom 5
+paddingLeft 20
+paddingRight 20
+paddingTop 5
+position absolute
+top 38
+backgroundColor rgba(0, 95, 255, 0.1)
+borderTopLeftRadius 4
+borderTopRightRadius 4
+borderBottomLeftRadius 4
+borderBottomRightRadius 4
+Text
+color #005fff
+fontFamily Montserrat
+fontSize 14
+fontWeight 400
+text Station Closed

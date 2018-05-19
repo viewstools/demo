@@ -1,0 +1,38 @@
+{
+  "name": "joyride",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "emotion": "^9.1.3",
+    "geolib": "^2.0.24",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-emotion": "^9.1.3",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run dev\" \"npm run views\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "dev": "react-scripts start",
+    "views": "views-morph src --watch --as react-dom",
+    "prebuild": "views-morph src --as react-dom"
+  },
+  "devDependencies": {
+    "@viewstools/e2e": "^0.1.3",
+    "@viewstools/morph": "^13.0.8",
+    "concurrently": "^3.5.1"
+  },
+  "author": "Views Tools <hi@views.tools>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/viewstools/demo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viewstools/demo.git"
+  }
+}

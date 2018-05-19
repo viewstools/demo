@@ -1,0 +1,23 @@
+Stations Vertical
+flexBasis auto
+flexGrow 1
+flexShrink 1
+backgroundColor white
+# paddingTop 1tbh
+# padddingBottom 1bbh
+NavBar
+goToCities <
+refresh <
+
+List
+from <
+flexGrow 1
+flexShrink 1
+overflowY auto
+flexBasis auto
+paddingLeft 20
+paddingRight 20
+marginTop 10
+contentContainerStyle <
+Station
+onClick <

@@ -1,0 +1,101 @@
+NoLocation Vertical
+flexGrow 1
+flexShrink 1
+flexBasis auto
+Vertical
+flexGrow 1
+flexShrink 1
+flexBasis auto
+alignItems center
+justifyContent center
+SettingsImage
+width 80
+height 80
+
+WavesSvg
+width 200
+height 100
+marginTop 20
+
+Horizontal
+marginLeft 20
+marginTop 20
+justifyContent stretch
+marginRight 20
+alignItems center
+Horizontal
+width 70
+borderColor #e5e5e5
+borderStyle solid
+borderWidth 2
+borderTopRightRadius 20
+borderTopLeftRadius 20
+borderBottomLeftRadius 20
+borderBottomRightRadius 20
+height 35
+Vertical
+width 30
+height 30
+backgroundColor #ffffff
+shadowOffsetX 0
+shadowOffsetY 3
+shadowBlur 5
+shadowSpread 0
+shadowColor rgba(106, 119, 129, 0.55)
+borderTopLeftRadius 20
+borderTopRightRadius 20
+borderBottomLeftRadius 20
+borderBottomRightRadius 20
+
+
+
+Text
+text Looks like you need to
+fontFamily Montserrat
+fontSize 20
+fontWeight 400
+textAlign center
+paddingLeft 30
+paddingRight 30
+lineHeight 1.4
+marginTop 50
+
+Text
+text enable location services
+fontFamily Montserrat
+fontSize 20
+fontWeight 400
+textAlign center
+paddingLeft 30
+paddingRight 30
+lineHeight 1.4
+
+
+Vertical
+alignItems center
+justifyContent center
+marginLeft 30
+marginRight 30
+marginBottom 10
+TextButton
+text Open in Settings
+marginLeft 0
+
+
+Vertical
+alignItems center
+justifyContent center
+paddingBottom 20
+paddingTop 10
+Text
+color #323232
+fontFamily Montserrat
+fontSize 14
+fontWeight 400
+text Keep disabled
+# TextButton
+# onWhen <isLocationServicesDisabled
+# text LocationServicesDisabled
+# LocationDenied Text
+# onWhen <isLocationDenied
+# text LocationDenied

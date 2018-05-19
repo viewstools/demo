@@ -1,0 +1,28 @@
+City Vertical
+onClick <
+backgroundColor white
+borderTopLeftRadius 8
+borderTopRightRadius 8
+borderBottomLeftRadius 8
+borderBottomRightRadius 8
+shadowColor rgba(96, 134, 180, 0.2)
+shadowSpread 0
+shadowBlur 20
+shadowOffsetY 5
+shadowOffsetX 0
+marginTop 10
+marginLeft 20
+marginRight 20
+paddingBottom 20
+paddingLeft 20
+paddingRight 20
+paddingTop 20
+opacity 1
+Text
+color #323232
+fontFamily Montserrat
+fontSize 16
+fontWeight 400
+text <name Dublin
+when <isSelected
+color #005fff

@@ -1,0 +1,9 @@
+SettingsImage Image
+backgroundColor < transparent
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+source < ./settings.png
+width < 512
+height < 512

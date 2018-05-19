@@ -1,0 +1,25 @@
+MapSvg Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+baseProfile tiny
+viewBox 0 0 50 50
+width < 50
+height < 50
+SvgPath
+fill < none
+stroke < #231F20
+strokeWidth 3
+strokeMiterlimit 10
+d M40.7 17.9C40.7 29 25 47.4 25 47.4S9.3 29 9.3 17.9c0-8.8 7-15.7 15.7-15.7s15.7 6.9 15.7 15.7z
+
+SvgCircle
+fill < none
+stroke < #231F20
+strokeWidth 3
+strokeMiterlimit 10
+cx 25
+cy 17.9
+r 8.1

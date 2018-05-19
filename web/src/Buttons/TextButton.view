@@ -1,0 +1,18 @@
+TextButton Vertical
+onClick <
+alignItems center
+paddingTop 10
+paddingBottom 10
+borderTopLeftRadius 8
+borderTopRightRadius 8
+borderBottomLeftRadius 8
+borderBottomRightRadius 8
+backgroundColor #005fff
+paddingLeft 30
+paddingRight 30
+Text
+color #ffffff
+fontFamily Montserrat
+fontSize 18
+fontWeight 400
+text < text

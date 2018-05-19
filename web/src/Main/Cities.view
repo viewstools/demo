@@ -1,0 +1,19 @@
+Cities Vertical
+flexBasis auto
+flexGrow 1
+flexShrink 1
+NavBar
+back <
+canGoBack <
+isCities true
+
+List
+flexBasis auto
+flexGrow 1
+flexShrink 1
+overflowY auto
+marginTop 10
+contentContainerStyle <
+from <
+City
+onClick <
