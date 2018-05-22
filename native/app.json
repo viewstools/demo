@@ -3,7 +3,7 @@
     "sdkVersion": "27.0.0",
     "name": "joyride",
     "icon": "./assets/logo.png",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "splash": {
       "backgroundColor": "#ffffff",
       "image": "./assets/splash.png"
@@ -11,7 +11,10 @@
     "orientation": "portrait",
     "ios": {
       "bundleIdentifier": "com.views.joyride",
-      "supportsTablet": false
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need to know your location to find the closest stations to you."
+      }
     },
     "android": {
       "icon": "./assets/logo.png",
