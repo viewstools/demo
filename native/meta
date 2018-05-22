@@ -1,0 +1,15 @@
+# CHANGELOG
+v1
+- see nearby bike stations
+- browse cities and their stations
+- see bikes and stands availability on stations
+
+# joyride - see bike stations around you
+
+# Short description
+Joyride lets you see bike stations around you and their availability.
+
+# Full description
+Joyride lets you see bike stations around you and their availability. It works on these cities: Amiens, Besancon, Brisbane, Bruxelles-Capitale, Cergy-Pontoise, Creteil, Dublin, Goteborg, Kazan, Lillestrom, Ljubljana, Lund, Luxembourg, Lyon, Marseille, Mulhouse, Namur, Nancy, Nantes, Rouen, Santander, Seville, Stockholm, Toulouse, Toyama, Valence, Vilnius.
+
+Joyride is a demo app made as an example of a "no-hand-off" workflow. We use Views Tools, Create React App, and Create React Native App. Find out more about it on https://demo.views.tools.
