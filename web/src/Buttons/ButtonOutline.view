@@ -1,5 +1,10 @@
 ButtonOutline Vertical
 onClick <
+onKeyPress <onRelease
+onMouseDown <onPress
+onTouchStart <onPress
+onMouseUp <onRelease
+onTouchEnd <onRelease
 borderColor #005fff
 borderWidth 1
 borderStyle solid
@@ -13,6 +18,14 @@ paddingRight 10
 paddingTop 4
 marginRight < 0
 width 80
+userSelect none
+backgroundColor white
+# when <hover
+# backgroundColor #005fff
+when <pressed
+backgroundColor #005fff
+when <released
+backgroundColor yellow
 Text
 color #005fff
 fontFamily Montserrat
@@ -20,3 +33,7 @@ fontSize 10
 fontWeight 400
 text < LABEL
 textAlign center
+when <hover
+color white
+when <pressed
+color white
