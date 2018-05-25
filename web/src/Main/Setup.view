@@ -14,7 +14,6 @@ height 140
 marginBottom 20
 
 Station Vertical
-onClick <
 width 80%
 backgroundColor white
 borderTopLeftRadius 8
@@ -105,7 +104,7 @@ paddingRight 30
 lineHeight 1.4
 
 
-Vertical
+Setup Vertical
 alignItems center
 justifyContent center
 marginLeft 30

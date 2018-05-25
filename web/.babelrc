@@ -1,0 +1,16 @@
+{
+  "env": {
+    "e2e": {
+      "presets": [
+        [
+          "env",
+          {
+            "targets": {
+              "node": "current"
+            }
+          }
+        ]
+      ]
+    }
+  }
+}

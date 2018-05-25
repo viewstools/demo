@@ -23,5 +23,9 @@ yarn-error.log*
 # views
 **/*.view.js
 **/Fonts/*.js
+**/*.view.page.js
+
 .env
 .netlify
+
+e2e-error-shots
