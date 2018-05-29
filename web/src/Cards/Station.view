@@ -15,7 +15,11 @@ paddingBottom 20
 paddingLeft 20
 paddingRight 20
 paddingTop 20
-opacity 1
+opacity 0
+translateY 20
+when <in
+opacity 1 spring
+translateY 0 spring
 Vertical
 opacity 1
 when <isClosed

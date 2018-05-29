@@ -39,13 +39,17 @@
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.6.3.tgz#65682e68a82701c70eefb38d7f941a2c0bfa90de"
 
+"@reactions/component@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@reactions/component/-/component-2.0.2.tgz#40f8c1c2c37baabe57a0c944edb9310dc1ec6642"
+
 "@viewstools/e2e@^0.1.3":
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@viewstools/e2e/-/e2e-0.1.3.tgz#5102d2799d20852cc189ed838b0e0c114788c637"
 
-"@viewstools/morph@^13.0.8":
-  version "13.0.8"
-  resolved "https://registry.yarnpkg.com/@viewstools/morph/-/morph-13.0.8.tgz#da15a2e15373afe04ef7e88f74b2385f8f8cf29c"
+"@viewstools/morph@^14.0.1":
+  version "14.0.1"
+  resolved "https://registry.yarnpkg.com/@viewstools/morph/-/morph-14.0.1.tgz#88633b6760a1fefe8d88e790dade6bb5b153157b"
   dependencies:
     array-uniq "^1.0.3"
     bubblesort "^1.0.1"
@@ -166,6 +170,13 @@ alphanum-sort@^1.0.1, alphanum-sort@^1.0.2:
 amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
+
+animated@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/animated/-/animated-0.2.2.tgz#04af7846ad0b9b8d1f0472cc53d82b8efeb4a751"
+  dependencies:
+    invariant "^2.2.0"
+    normalize-css-color "^1.0.1"
 
 ansi-align@^2.0.0:
   version "2.0.0"
@@ -3726,7 +3737,7 @@ interpret@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.1.0.tgz#7ed1b1410c6a0e0f78cf95d3b8440c63f78b8614"
 
-invariant@^2.2.1, invariant@^2.2.2:
+invariant@^2.2.0, invariant@^2.2.1, invariant@^2.2.2:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   dependencies:
@@ -5062,6 +5073,10 @@ nopt@~1.0.10:
   resolved "https://registry.yarnpkg.com/nopt/-/nopt-1.0.10.tgz#6ddd21bd2a31417b92727dd585f8a6f37608ebee"
   dependencies:
     abbrev "1"
+
+normalize-css-color@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/normalize-css-color/-/normalize-css-color-1.0.2.tgz#02991e97cccec6623fe573afbbf0de6a1f3e9f8d"
 
 normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
   version "2.4.0"
