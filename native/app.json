@@ -13,14 +13,20 @@
       "bundleIdentifier": "com.views.joyride",
       "supportsTablet": false,
       "infoPlist": {
-        "NSLocationWhenInUseUsageDescription": "We need to know your location to find the closest stations to you."
+        "NSLocationWhenInUseUsageDescription":
+          "We need to know your location to find the closest stations to you."
       }
     },
     "android": {
       "icon": "./assets/logo.png",
       "package": "com.views.joyride",
       "permissions": [],
-      "versionCode": 1
+      "versionCode": 3,
+      "config": {
+        "googleMaps": {
+          "apiKey": "GOOGLE_MAPS"
+        }
+      }
     },
     "assetBundlePatterns": ["assets/**/*"]
   }
