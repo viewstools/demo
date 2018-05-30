@@ -17,11 +17,11 @@ paddingBottom 20
 paddingLeft 20
 paddingRight 20
 paddingTop 20
-opacity 0
-translateY 20
-when <in
-opacity 1 spring
-translateY 0 spring
+opacity 1
+translateY 0
+when <before
+opacity 0 spring
+translateY 20 spring
 Text
 color #323232
 fontFamily Montserrat

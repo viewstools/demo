@@ -3,9 +3,9 @@ import React from 'react'
 
 export default props => (
   <Component
-    state={{ in: false }}
+    initialState={{ before: true }}
     didMount={({ setState }) => {
-      setTimeout(() => setState({ in: true }), 50 * props.index)
+      setTimeout(() => setState({ before: false }), 50 * props.index)
     }}
   >
     {({ state }) => props.children(state)}
