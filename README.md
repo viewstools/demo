@@ -13,15 +13,13 @@ Creteil, Dublin, Goteborg, Kazan, Lillestrom, Ljubljana, Lund, Luxembourg, Lyon,
 Marseille, Mulhouse, Namur, Nancy, Nantes, Rouen, Santander, Seville, Stockholm,
 Toulouse, Toyama, Valence, Vilnius.
 
-See how we built it on this blog post (LINK TO MEDIUM).
+See how we built it on this blog post https://medium.com/@tomkaizen/531907dad23f.
 
 Here you will find a [native](native) and [web](web) version of the same application.
 
-You can try it online at https://demo.views.tools or download it from the App
-Store or Play Store too.
-
-You can also see the blog post showing the process here
-https://medium.com/@tomkaizen/531907dad23f.
+You can try it online at https://demo.views.tools or download it from the [App
+Store](https://itunes.apple.com/us/app/joyride/id1387335728?mt=8) or
+[Play Store](https://play.google.com/store/apps/details?id=com.views.joyride) too.
 
 Licensed BSD-3-Clause.
 
