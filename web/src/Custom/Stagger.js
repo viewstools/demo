@@ -1,13 +1,21 @@
 import Component from '@reactions/component'
 import React from 'react'
 
-export default props => (
+const Stagger = props => (
   <Component
     initialState={{ before: true }}
-    didMount={({ setState }) => {
-      setTimeout(() => setState({ before: false }), 50 * props.index)
+    didMount={({ setState, state }) => {
+      setTimeout(
+        () => requestAnimationFrame(() => setState({ before: false })),
+        props.delay * props.index
+      )
     }}
   >
     {({ state }) => props.children(state)}
   </Component>
 )
+Stagger.defaultProps = {
+  delay: 15,
+  index: 0,
+}
+export default Stagger
