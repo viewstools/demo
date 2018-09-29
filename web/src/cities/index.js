@@ -48,7 +48,7 @@ const getFreeBikesEmptySpacesAndIsOpen = ({
   available_bikes,
   available_bike_stands,
   status,
-}) => ({
+} = {}) => ({
   freeBikes: available_bikes,
   emptySpaces: available_bike_stands,
   isClosed: status === 'CLOSED',

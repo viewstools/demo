@@ -99,11 +99,11 @@ export default class LocationComponent extends React.Component {
       location: null,
     })
 
-    console.log('will refresh')
-
     window.navigator.geolocation.getCurrentPosition(
       location => {
         if (this.willUnmount) return
+
+        console.log(location)
 
         this.setState(
           {
@@ -130,7 +130,7 @@ export default class LocationComponent extends React.Component {
 
         this.ready(callback)
       },
-      { enableHighAccuracy: true, timeout: 1000, /* Infinity, maximumAge: 0 */ }
+      { enableHighAccuracy: true, timeout: 10000, /* Infinity, maximumAge: 0 */ }
     )
   }
 

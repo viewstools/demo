@@ -7,53 +7,44 @@ class AppLogic extends React.Component {
   state = {
     city: null,
     isCities: false,
-    isLoading: true,
     isSetup: false,
     isStations: false,
     isMap: false,
     station: null,
   }
 
-  static getDerivedStateFromProps(nextProps, prevState) {
-    if (
-      nextProps.location.isReady &&
-      (prevState.isLoading || prevState.isSetup)
-    ) {
-      const { city } = nextProps.location
-      const isCities = city === null
-
-      return {
-        city,
-        isLoading: false,
-        isCities,
-        isStations: !isCities,
-      }
-    }
-
-    if (nextProps.location.isLoading && prevState.isSetup) {
-      return {
-        isLoading: true
-      }
-    }
-
-    return null
-  }
-
-  async componentDidMount() {
+  componentDidMount() {
+    const { props } = this
     const isSetup = Storage.getItem('@joyride:setup')
 
     if (isSetup) {
       this.setState({ isSetup: true })
-
-      if (this.props.location.isReady) {
-        this.setState({
-          isLoading: false,
-          isCities: true,
-        })
+      if (props.location.isReady) {
+        this.isItCitiesOrStations()
       }
-    } else {
-      this.setState({ isLoading: false })
     }
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    const { props } = this
+
+    if (
+      prevProps.location.isReady !== props.location.isReady &&
+      props.location.isReady
+    ) {
+      this.isItCitiesOrStations()
+    }
+  }
+
+  isItCitiesOrStations() {
+    const { city } = this.props.location
+    const isCities = city === null
+
+    this.setState({
+      city,
+      isCities,
+      isStations: !isCities,
+    })
   }
 
   back = () => {
@@ -122,6 +113,8 @@ class AppLogic extends React.Component {
   render() {
     const { props, state } = this
 
+    const { isLoading } = props.location
+
     return (
       <App
         {...state}
@@ -133,7 +126,8 @@ class AppLogic extends React.Component {
         coordsIsReady={props.location.isReady}
         goToCities={this.goToCities}
         goToStations={this.goToStations}
-        isNotSetupOrLoading={!(state.isSetup || state.isLoading)}
+        isLoading={isLoading}
+        isNotSetupOrLoading={!(state.isSetup || isLoading)}
         refresh={
           props.location.location && props.location.city === state.city
             ? props.location.refresh
